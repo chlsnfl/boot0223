@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        [class^=col]>div{
+            background-color: #fff;
+            height: 100px;
+            margin-bottom: 30px;
+        }
+    </style>
+
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+            <div class="container">
+            <a href="#" class="navbar-brand">MWEB</a>
+            <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target ="#navbar">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ml-lg-5 lr-lg-3"><a href="#" class="nav-link">office</a></li>
+                    <li class="nav-item mx-lg-3"><a href="#" class="nav-link">gallery</a></li>
+                    <li class="nav-item mx-lg-3"><a href="#" class="nav-link">contact</a></li>
+                </ul>
+                <form class="form-inline">
+                    <input type="text" class="form-control mr-sm-2" placeholder="search">
+                    <button class="btn btn-outline-success">search</button>
+                </form>
+            </div>
+      </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slick-slider">
+            <div>
+                <img src="https://picsum.photos/id/30/700/500.jpg" alt="#">
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/40/700/500.jpg" alt="#">
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/50/700/500.jpg" alt="#">
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/60/700/500.jpg" alt="#">
+            </div>
+            <div>
+                <img src="https://picsum.photos/id/70/700/500.jpg" alt="#">
+            </div>
+        </div>
+        <!-- arrow button -->
+        <div class="indicator">
+            <div class="prevArrow"><i class="fa-solid fa-left-long"></i></div>
+            <div class="nextArrow"><i class="fa-solid fa-right-long"></i></div>
+        </div>
+        <div class="container">
+            <h1 class="text-center my-5">FIRST NAV</h1>
+            <p class="pb-3">공무원의 직무상 불법행위로 손해를 받은 국민은 법률이 정하는 바에 의하여 국가 또는 공공단체에 정당한 배상을 청구할 수 있다. 이 경우 공무원 자신의 책임은 면제되지 아니한다.
+            </p>
+
+            <div class="row">
+                <div class="col-md-4 col-12 mt-5 text-center">
+                    <img class = "rounded-circle" src="https://picsum.photos/id/103/150/150.jpg" alt="#">
+                    <h2 class="my-3">컨버스</h2>
+                    <p class="mb-4">컨버스 최저가 확인하기</p>
+                    <a class="btn btn-secondary" href="#">자세히보기</a>
+                </div>
+                <div class="col-md-4 col-12 mt-5 text-center">
+                    <img class = "rounded-circle" src="https://picsum.photos/id/201/150/150.jpg" alt="#">
+                    <h2 class="my-3">안경</h2>
+                    <p class="mb-4">패션 안경 최저가 확인하기</p>
+                    <a class="btn btn-secondary" href="#">자세히보기</a>
+                </div>
+                <div class="col-md-4 col-12 mt-5 text-center">
+                    <img class = "rounded-circle" src="https://picsum.photos/id/301/150/150.jpg" alt="#">
+                    <h2 class="my-3">여행</h2>
+                    <p class="mb-4">티켓값 최저가 확인하기</p>
+                    <a class="btn btn-secondary" href="#">자세히보기</a>
+                </div>
+            </div>
+            <hr class="my-5">
+            <div class="row">
+                <div class="col-md-7 col-12">
+                    <h1 class="pb-3">최저가 확인하기</h1>
+                    <p>배고파배고파쿠키도먹고싶고마라탕도먹고싶고꿔바로우꼭먹어야만.
+                        배고파배고파쿠키도먹고싶고마라탕도먹고싶고꿔바로우꼭먹어야만.
+                        배고파배고파쿠키도먹고싶고마라탕도먹고싶고꿔바로우꼭먹어야만.
+                    </p>
+                </div>
+                <div class="col-md-5 col-12">
+                    <img class = "img-thumbnail" src="https://picsum.photos/id/54/580/700.jpg" alt="#">
+                </div>
+        </div>
+
+    </main>
+    <footer class="bg-secondary text-white">
+        <div class="container text-center py-5 mt-5">
+            Copyright &copy;NULL all right reserved.
+        </div>
+    </footer>
+        <!-- <div id="myCarousel" class="carousel-slide" data ride ="carousel"></div>
+            <ul class="carousel-indicators">
+                <li data-target = "#myCarousel" data-slides-to="0" class="active"></li>
+                <li data-target = "#myCarousel" data-slides-to="1"></li>
+                <li data-target = "#myCarousel" data-slides-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/id/230/2000/500.jpg" alt="01">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>첫번째 이미지</h1>
+                            <p>
+                                    국무회의는 정부의 권한에 속하는 중요한 정책을 심의한다. 
+                            </p><p>대통령은 조약을 체결·비준하고, 외교사절을 신임·접수 또는 파견하며, 선전포고와 강화를 한다.
+                            </p><p>국회에 제출된 법률안 기타의 의안은 회기중에 의결되지 못한 이유로 폐기되지 아니한다. 
+                            </p><p>다만, 국회의원의 임기가 만료된 때에는 그러하지 아니하다. 
+                            </p><p>국회는 국민의 보통·평등·직접·비밀선거에 의하여 선출된 국회의원으로 구성한다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/id/440/2000/500.jpg" alt="02">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/id/80/2000/500.jpg" alt="03">
+      
+                </div>
+                <a href="#myCarousel" class="carousel-control-prev"  role= "button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class ="sr-only">이전</span>
+                </a>
+                <a href="#myCarousel" class="carousel-control-next"  role= "button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class ="sr-only">다음</span>
+                    </a>
+            
+                </div>
+            </div> -->
+    
+
+    
+</body>
+</html>
